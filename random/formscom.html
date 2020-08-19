@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8"/>
+	<html lang="EN">
+
+</head>
+<body>
+	<form method="post">
+		<label>username:</label>
+		<input type="text" name="username" size="25" maxlength="25" placeholder="username"><br>
+		<textarea maxlength="26" rows="5" cols="10" >hi</textarea><br>
+		<input type="password" name="pwd" minlength="6" maxlength="10" placeholder="password"><br>
+		<input type="checkbox" id="cri" name="hobby[]" ><label for="cri"> cricket</label><br>
+
+
+		<input type="checkbox" name="hobby[]" >volley<br>
+		<input type="checkbox" name="hobby[]" >football<br>
+		<input type="radio" name="gender" > male
+		<input type="radio" name="gender">female<br>
+		<select name="dob" >
+			<option value="2">1</option>
+			<option value="2">1</option>
+			<option value="2">1</option>
+			<option value="2">1</option>
+			<option value="2">1</option>
+			<option value="2">1</option>
+			<option value="2">1</option>
+		</select><br>
+		<input type="file">
+		<input type="submit" value="send">
+		<br>
+		<label for="age" >age</label>
+		<input type="number" name="age" id="age" required><br>
+		<label for="dob">DOB</label>
+		<input type="date" name="dob"  id="dob">
+
+		<input type="week" name="week">
+	<br>
+	<input type="time" name="time">
+
+	</form>
+</body>
